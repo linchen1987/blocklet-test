@@ -35,11 +35,6 @@
       "last 1 safari version"
     ]
   },
-  "blocklet": {
-    "scripts": {
-      "dev": "npm run start"
-    }
-  },
   "files": [
     "build"
   ]
