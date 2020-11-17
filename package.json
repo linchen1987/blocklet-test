@@ -39,5 +39,8 @@
     "scripts": {
       "dev": "npm run start"
     }
-  }
+  },
+  "files": [
+    "build"
+  ]
 }
