@@ -3,7 +3,7 @@ description: >-
   Blocklet from
   /home/runner/work/test-migrate-action/test-migrate-action/workspaces/test-demo-blocklet
 group: static
-version: 0.1.7
+version: 0.1.8
 main: build
 publicUrl: /
 charging:
