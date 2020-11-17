@@ -4,7 +4,7 @@ description: >-
   /home/runner/work/test-migrate-action/test-migrate-action/workspaces/test-demo-blocklet
 group: static
 version: 0.1.1
-main: public
+main: build
 publicUrl: /
 charging:
   price: 0
