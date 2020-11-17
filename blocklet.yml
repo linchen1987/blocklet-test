@@ -1,0 +1,17 @@
+name: react-demo
+version: 0.1.0
+scripts:
+  dev: npm run start
+description: >-
+  Blocklet from
+  /home/runner/work/test-migrate-action/test-migrate-action/workspaces/test-demo-blocklet
+group: static
+main: public
+publicUrl: /
+color: primary
+capabilities:
+  dynamicPathPrefix: true
+charging:
+  price: 0
+did: z8iZvpvLdpfxkvTFdawCF3s5UJdUSkP2NXqPC
+specVersion: 1.0.0
