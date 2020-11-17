@@ -37,5 +37,10 @@
   },
   "files": [
     "build"
-  ]
+  ],
+  "blocklet": {
+    "scripts": {
+      "dev": "npm run start"
+    }
+  }
 }
