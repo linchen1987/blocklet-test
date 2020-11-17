@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), it's a simple demo purpose [Blocklet](https://www.arcblock.io/en/blocklets) that runs on [ABT Node](https://www.arcblock.io/en/platform).
 
+## Install on my ABT Node
+
+[![Install on my ABT Node](https://raw.githubusercontent.com/linchen1987/abtnode-test/main/assets/install_on_abtnode.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Flinchen1987%2Ftest-demo-blocklet%2Freleases%2Fdownload%2F0.1.8%2Fblocklet.json)
+
 ## Run and debug in the cloud with Gitpod
 
 Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.
