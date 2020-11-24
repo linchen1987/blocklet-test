@@ -25,9 +25,6 @@ jobs:
       run: bash ./tools/publish.sh
     
     - name: Test action
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GIT_HUB_TOKEN: ${{ secrets.GIT_HUB_TOKEN }}
-      uses: linchen1987/test-github-actions@v23
+      uses: blocklet/action-release-to-github@v1.0.0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
