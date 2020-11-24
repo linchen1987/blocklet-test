@@ -1,6 +1,6 @@
 {
   "name": "react-demo",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "files": [
     "build"
   ],
@@ -31,7 +31,7 @@
   ],
   "environments": [],
   "screenshots": [],
-  "gitHash": "ea2f9882df038c91c3ed9012591f494a7206c159",
+  "gitHash": "3db413e1f736f8db29fdcc42fcfcf77287ca9f75",
   "path": "/static/react-demo",
   "charging": {
     "price": 0
@@ -40,8 +40,8 @@
     "dynamicPathPrefix": true
   },
   "dist": {
-    "tarball": "react-demo-0.1.10.tgz",
-    "integrity": "sha512-LPkqn9ZWaolR8MTyi+NAhMcpuzKAzBpUU9yM4PGxZa1X+eqtw2tsTnlZfj+l4XltyqYFoLKbaOHeWuBDVsY5KQ==",
-    "shasum": "f8a54d086df4f5edf3ef507b6bddcac3ff8043e3"
+    "tarball": "react-demo-0.1.11.tgz",
+    "integrity": "sha512-So9kbKJ0ilYlYNlnkIjNte8YlWqk4CtO4GDHzC3HLT3wrHE8ECnlV5qCeduMy5KR/W/QLowwJS1JYVptudgJzQ==",
+    "shasum": "cac2059643862f627c1b16bf5a5d8e37a7f5abe1"
   }
 }
