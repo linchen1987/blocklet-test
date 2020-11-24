@@ -28,6 +28,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GIT_HUB_TOKEN: ${{ secrets.GIT_HUB_TOKEN }}
-      uses: linchen1987/test-github-actions@v21
+      uses: linchen1987/test-github-actions@v22
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
