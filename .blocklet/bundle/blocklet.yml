@@ -1,5 +1,5 @@
 name: react-demo
-version: 0.1.8
+version: 0.1.9
 files:
   - build
 description: >-
@@ -26,4 +26,4 @@ interfaces:
     protocol: tcp
 environments: []
 screenshots: []
-gitHash: f3f5a9be06281cbdfc3aaab424147af9f253312e
+gitHash: 13fe0ee3c0ef34c7a199faa08e1603ca7419e1b0

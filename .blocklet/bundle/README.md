@@ -16,7 +16,7 @@ Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.
 
 If you have not installed ABT Node locally, you can do it using the following: 
 ```shell
-yarn global add @abtnode/cli
+yarn global add @abtnode/cli..
 ```
 You can get more details from [Get started with ABT Node](https://www.arcblock.io/en/get-started) page or if you need help installing ABT Node. 
 
