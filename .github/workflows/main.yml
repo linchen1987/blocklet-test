@@ -21,4 +21,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GIT_HUB_TOKEN: ${{ secrets.GIT_HUB_TOKEN }}
+        TAG: ${{ github.ref }}
       run: bash ./tools/publish.sh
