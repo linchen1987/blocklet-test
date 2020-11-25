@@ -18,8 +18,9 @@ RUN apt-get upgrade -yy && \
 
 USER codespace
 
-RUN npm install -g @abtnode/cli@latest \
-    && `npm bin`/abtnode init -f --mode debug --http-port 8080 --no-https
+RUN npm install -g @abtnode/cli@latest
+
+RUN abtnode init -f --mode debug --http-port 8080 --no-https
 
 ENV ABT_NODE_HTTP_PORT=8080
 
