@@ -20,9 +20,10 @@ USER codespace
 
 RUN npm install -g @abtnode/cli@latest
 
-# RUN abtnode init -f --mode debug --http-port 8080 --no-https
+# ENV ABT_NODE_HTTP_PORT=8080
 
-ENV ABT_NODE_HTTP_PORT=8080
+WORKDIR /home/codespace/workspace/blocklet-test
+RUN abtnode init -f --mode debug --http-port 8080 --no-https
 
 # CMD ["abtnode", "start", "-a", "-u"]
 
