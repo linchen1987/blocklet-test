@@ -24,5 +24,5 @@ RUN npm install -g @abtnode/cli@latest
 
 ENV ABT_NODE_HTTP_PORT=8080
 
-CMD ["abtnode", "start", "-a", "-u"]
+# CMD ["abtnode", "start", "-a", "-u"]
 
