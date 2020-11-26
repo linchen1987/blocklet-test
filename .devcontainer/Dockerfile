@@ -18,4 +18,6 @@ RUN apt-get upgrade -yy && \
 
 USER codespace
 
+ENV PATH="/home/codespace/.npm-global/bin:${PATH}"
+
 RUN npm install -g @abtnode/cli@latest
