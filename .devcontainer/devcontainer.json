@@ -48,5 +48,6 @@
 	"forwardPorts": [8080],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "abtnode init -f --mode debug --http-port 8080 --no-https && abtnode start"
+	"postCreateCommand": "echo $PWD-`date` > test"
+	// "postCreateCommand": "abtnode init -f --mode debug --http-port 8080 --no-https && abtnode start"
 }
